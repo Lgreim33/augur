@@ -1,4 +1,8 @@
-# Augur NEW Release v0.51.1
+# Liam's Addition:
+/\---/\
+| . . |
+\\\ ///
+
 
 [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/) We follow the [First Timers Only](https://www.firsttimersonly.com/) philosophy of tagging issues for first timers only, and walking one newcomer through the resolution process weekly. [You can find these issues tagged with "first timers only" on our issues list.](https://github.com/chaoss/augur/labels/first-timers-only).
 
@@ -7,9 +11,8 @@
 ## NEW RELEASE ALERT!
 ### [If you want to jump right in, updated docker build/compose and bare metal installation instructions are available here](docs/new-install.md)
 
-
 Augur is now releasing a dramatically improved new version to the main branch. It is also available here: https://github.com/chaoss/augur/releases/tag/v0.51.1
-- The `main` branch is a stable version of our new architecture, which features:
+- The `main` branch is an unstable version of our new architecture, which features:
   - Dramatic improvement in the speed of large scale data collection (100,000+ repos). All data is obtained for 100k+ repos within 2 weeks.
   - A new job management architecture that uses Celery and Redis to manage queues, and enables users to run a Flower job monitoring dashboard
   - Materialized views to increase the snappiness of API’s and Frontends on large scale data
